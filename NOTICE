@@ -1,0 +1,39 @@
+RNSOverMeshCore
+Copyright (c) 2026 RNSOverMeshCore contributors
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See the LICENSE file for the full text.
+
+This product is a Swift reimplementation — NOT a fork — of the following GPL-3.0
+Python project, whose interface logic and MeshCore wire format it ports:
+
+  RNS_Over_Meshcore — comms-engineer
+  https://github.com/comms-engineer/RNS_Over_Meshcore
+
+RNS_Over_Meshcore was itself forked from:
+
+  RNS_Over_Meshtastic — landandair
+  https://github.com/landandair/RNS_Over_Meshtastic
+
+It speaks the companion protocol of, and credits:
+
+  MeshCore — ripplebiz and contributors (LoRa-mesh firmware + companion protocol)
+  https://github.com/meshcore-dev/MeshCore
+  meshcore_py (companion library the frame codec follows)
+  https://github.com/meshcore-dev/meshcore_py
+
+  Meshtastic — the upstream inspiration for the original Meshtastic tunnel
+  https://github.com/meshtastic
+
+It plugs into, and depends on (but does not modify), the permissively-licensed:
+
+  ReticulumSwift — a Swift port of the Reticulum Network Stack
+  https://github.com/SullivanPrell/ReticulumSwift
+  Reticulum — Mark Qvist
+  https://github.com/markqvist/Reticulum
+
+A GPL-3.0 work may depend on permissively-licensed code; that dependency keeps
+the ReticulumSwift core's license clean. Because this package derives from the
+GPL-3.0 RNS_Over_Meshcore, it is itself licensed GPL-3.0-or-later.
