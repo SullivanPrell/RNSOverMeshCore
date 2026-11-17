@@ -21,7 +21,7 @@ import Foundation
 let useLocalDeps = ProcessInfo.processInfo.environment["RETICULUM_LOCAL_DEPS"] != nil
 let reticulumDependency: Package.Dependency = useLocalDeps
     ? .package(path: "../swift_devel/ReticulumSwift")
-    : .package(url: "https://github.com/SullivanPrell/ReticulumSwift.git", from: "1.3.4")
+    : .package(url: "https://github.com/SullivanPrell/ReticulumSwift.git", from: "1.28.0")
 
 let package = Package(
     name: "RNSOverMeshCore",

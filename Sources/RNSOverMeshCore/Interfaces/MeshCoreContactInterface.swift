@@ -37,7 +37,7 @@ public final class MeshCoreContactInterface: Interface, @unchecked Sendable {
 
     // MARK: Interface conformance
     public let name: String
-    public private(set) var bitrate: Int
+    public var bitrate: Int
     public private(set) var isOnline = false
     public let hwMtu: Int?
     public let fixedMtu = true

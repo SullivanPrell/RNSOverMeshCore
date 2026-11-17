@@ -4,6 +4,14 @@ All notable changes to RNSOverMeshCore are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres
 to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] — 2026-11-16
+
+### Fixed
+
+- Builds against ReticulumSwift 1.8.0 and later. ReticulumSwift's `Interface`
+  protocol requires a settable `bitrate` since 1.8.0, and the three interfaces
+  declared it `private(set)`. RNSOverMeshCore now requires ReticulumSwift 1.28.0.
+
 ## [1.0.0] — 2026-07-20
 
 Initial release. A Swift reimplementation of the GPL-3.0 Python
