@@ -17,7 +17,7 @@ public final class MeshCoreDynamicInterface: Interface, @unchecked Sendable {
 
     // MARK: - Interface conformance
     public let name: String
-    public private(set) var bitrate: Int
+    public var bitrate: Int
     public private(set) var isOnline: Bool = false
     public let hwMtu: Int? = Constants.mtu
     public let fixedMtu: Bool = true
